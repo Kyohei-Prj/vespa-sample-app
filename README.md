@@ -3,7 +3,9 @@ Simple search engine app using vespa.
 
 ## download text data
 cd data
+
 wget https://www.rondhuit.com/download/ldcc-20140209.tar.gz
+
 tar -zxvf ldcc-20140209.tar.gz
 
 ## format text data and calculate embeddings
@@ -29,6 +31,7 @@ https://github.com/vespa-engine/vespa/releases
 
 ## deploy
 cd ./vespa_config
+
 vespa deploy --wait 300
 
 ## load data to vespa
