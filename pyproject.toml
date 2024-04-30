@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vespa-sample-app"
+version = "0.1.0"
+description = "search app using vespa"
+authors = ["Kyohei-Prj <tatsukawaforjob@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.360"
+tree-sitter-languages = "^1.10.2"
+autopep8 = "^2.1.0"
+pytest = "^8.2.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
